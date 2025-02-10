@@ -5,7 +5,9 @@ export const College=()=>{
         <div style={{width:'1100px',height:'350px',flexDirection:'column',display:'flex'}}>
             <div style={{flex:'1',display:'flex',flexDirection:'row'}}>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
-                    <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px'}}></div>
+                    <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px'}}>
+                        <img src=""/>
+                    </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Restaurants</a>
                     </div>
@@ -18,7 +20,7 @@ export const College=()=>{
                 </div>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                     <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px'}}>
-                        <img src="https://bing.com/th?id=OSK.a5fc2506b4eaf08dabe0ff7a5065e95a"></img>
+                        <img src="https://bing.com/th?id=OSK.a5fc2506b4eaf08dabe0ff7a5065e95a" width={'60px'} height={'60px'}></img>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Beauty</a><br/>

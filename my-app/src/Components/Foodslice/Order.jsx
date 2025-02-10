@@ -49,7 +49,7 @@ export const Order=()=>{
                         <div style={{border:'1px solid white',flex:'1',display:'flex',flexDirection:'row',overflow:'hidden',margin:'10px',borderRadius:'10px'}}>
                             <div style={{flex:'1',backgroundColor:'white',display:'flex'}}>
                                 <div style={{flex:'1',margin:'5px',backgroundColor:'whitesmoke'}}>
-                                    <img src="https://bing.com/th?id=OSK.a5fc2506b4eaf08dabe0ff7a5065e95a"/>
+                                    <img src="https://bing.com/th?id=OSK.a5fc2506b4eaf08dabe0ff7a5065e95a" height={'50px'} width={'60px'}/> 
                                 </div>
                             </div>
                             <div style={{backgroundColor:'white',flex:'3'}}>
@@ -63,7 +63,7 @@ export const Order=()=>{
                         <div style={{border:'1px solid white',flex:'1',display:'flex',flexDirection:'row',overflow:'hidden',margin:'10px',borderRadius:'10px'}}>
                             <div style={{flex:'1',backgroundColor:'white',display:'flex'}}>
                                 <div style={{flex:'1',margin:'5px',backgroundColor:'whitesmoke'}}>
-                                    <img src="https://tse1.explicit.bing.net/th/id/OIP.nqnqyE5Al83nIdyLVMPi6wHaE8?rs=1&pid=ImgDetMain"/>
+                                    <img src="https://tse1.explicit.bing.net/th/id/OIP.nqnqyE5Al83nIdyLVMPi6wHaE8?rs=1&pid=ImgDetMain" height={'50px'} width={'60px'}/> 
                                 </div>
                             </div>
                             <div style={{backgroundColor:'white',flex:'3'}}>
@@ -77,7 +77,7 @@ export const Order=()=>{
                         <div style={{border:'1px solid white',flex:'1',display:'flex',flexDirection:'row',overflow:'hidden',margin:'10px',borderRadius:'10px'}}>
                             <div style={{flex:'1',backgroundColor:'white',display:'flex'}}>
                                 <div style={{flex:'1',margin:'5px',backgroundColor:'whitesmoke'}}>
-                                    <img src="https://www.mjandhungryman.com/wp-content/uploads/2022/04/toddler-dinner-ideas.jpg"/>
+                                    <img src="https://www.mjandhungryman.com/wp-content/uploads/2022/04/toddler-dinner-ideas.jpg" height={'50px'} width={'60px'}/> 
                                 </div>
                             </div>
                             <div style={{backgroundColor:'white',flex:'3'}}>
