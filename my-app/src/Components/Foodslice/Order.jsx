@@ -8,7 +8,7 @@ import { MdErrorOutline } from "react-icons/md";
 
 export const Order=()=>{
     return(
-        <div style={{border:'1px solid black',width:'350px',height:'680px',display:'flex',flexDirection:'column',overflow:'hidden'}}>
+        <div style={{border:'1px solid black',width:'350px',height:'700px',display:'flex',flexDirection:'column',overflow:'hidden'}}>
             <div style={{border:'1px solid black',flex:'1',borderRadius:'30px',margin:'10px',display:'flex'}}>
                 <div style={{flex:'2',justifyContent:'space-between',textAlign:'center',fontFamily:'Arial ,sans-serif',fontSize:'small'}}><p>Find food or beverages  </p></div>
                 <div style={{flex:'2',textAlign:'end',marginRight:'20px',marginTop:'12px'}}><IoSearch /> </div>
