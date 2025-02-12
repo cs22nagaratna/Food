@@ -52,7 +52,7 @@ export const Shoes=()=>{
                                 </div>
                             </div>
                         </div>
-                        <div style={{border:'1px solid darkblue',flex:'3',display:'flex',flexDirection:'column', marginRight:'80px',marginTop:'10px',marginBottom:'10px',borderRadius:'10px'}}>
+                        <div style={{flex:'3',display:'flex',flexDirection:'column', marginRight:'80px',marginTop:'10px',marginBottom:'10px',borderRadius:'10px'}}>
                             <div style={{flex:'1'}}>
                                 <a style={{fontFamily:'arial,sans serrif',fontWeight:'bold',fontSize:'15px'}}>Available Shipping Method </a>
                             </div>
@@ -62,16 +62,51 @@ export const Shoes=()=>{
                                     <a style={{fontFamily:'Arial , sans serif',fontWeight:'bold',fontSize:'15px'}}>Fedex Delivery</a><br/>
                                     <a style={{fontFamily:'arial,sans sarif',fontSize:'15px',paddingBottom:'55px'}}>Delivery 2-3 days work</a>
                                 </div>
-                                <div style={{flex:'1'}}></div>
+                                <div style={{flex:'1',textAlign:'center',paddingTop:'20px'}}>
+                                    <a style={{fontFamily:'Arial,sans serif',fontWeight:'bold'}}>Free</a>
+                                </div>
                             </div>
                             <div style={{flex:'1'}}>
                                 <a style={{fontFamily:'arial,sans serrif',fontWeight:'bold',fontSize:'15px'}}>Available International Shipping:</a>
                             </div>
-                            <div style={{border:'1px solid red',flex:'3'}}></div>
+                            <div style={{backgroundColor:'whitesmoke',flex:'3',margin:'5px',borderRadius:'10px',display:'flex'}}>
+                                <div style={{flex:'1',textAlign:'center',fontFamily:'arial,sans serif',fontWeight:'bold',paddingTop:'20px'}}></div>
+                                <div style={{flex:'2',marginTop:'15px'}}>
+                                    <a style={{fontFamily:'Arial , sans serif',fontWeight:'bold',fontSize:'15px'}}>DHL Delivery</a><br/>
+                                    <a style={{fontFamily:'arial,sans sarif',fontSize:'15px',paddingBottom:'55px'}}>Delivery 1-3 days work</a>
+                                </div>
+                                <div style={{flex:'1',textAlign:'center',paddingTop:'20px'}}>
+                                    <a style={{fontFamily:'Arial,sans serif',fontWeight:'bold'}}>$ 12.00</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div style={{border:'1px solid darkblue',flex:'1'}}></div>
+                <div style={{backgroundColor:'whitesmoke',flex:'1',display:'flex',flexDirection:'row'}}>
+                    <div style={{flex:'1'}}></div>
+                    <div style={{flex:'6',display:'flex',flexDirection:'column'}}>
+                        <div style={{flex:'1'}}>
+                            <p style={{fontFamily:'Arial,sans serif',fontWeight:'bolder',fontSize:'18px'}}>Payment Details</p>
+                            <a style={{fontFamily:'arial,sans serif',fontSize:'15px'}}>Complete your purchase item by providing your<br/>payment details order.</a>
+                        </div>
+                        <div style={{flex:'3',display:'flex',flexDirection:'column'}}>
+                            <div style={{flex:'1',marginTop:'10px'}}>
+                                <a style={{fontFamily:'arial,sans serif',fontWeight:'bold',fontSize:'15px'}}>Email Address</a>
+                            </div>
+                            <div style={{border:'1px solid black',flex:'2',borderRadius:'10px'}}></div>
+                            <div style={{flex:'1',marginTop:'10px'}}>
+                                <a style={{fontFamily:'arial,sans serif',fontWeight:'bold',fontSize:'15px'}}>Card Details</a>
+                            </div>
+                            <div style={{border:'1px solid black',flex:'2',borderRadius:'10px'}}></div>
+                            <div style={{flex:'1',marginTop:'10px'}}>
+                                <a style={{fontFamily:'arial,sans serif',fontWeight:'bold',fontSize:'15px'}}>Card Holder</a>
+                            </div>
+                            <div style={{border:'1px solid black',flex:'2',borderRadius:'10px'}}></div>
+                        </div>
+                        <div style={{border:'1px solid black',flex:'3'}}></div>
+                    </div>
+                    <div style={{flex:'1.5'}}></div>
+                </div>
             </div>
         </div>
     )
