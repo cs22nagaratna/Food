@@ -53,9 +53,20 @@ export const Shoes=()=>{
                             </div>
                         </div>
                         <div style={{border:'1px solid darkblue',flex:'3',display:'flex',flexDirection:'column', marginRight:'80px',marginTop:'10px',marginBottom:'10px',borderRadius:'10px'}}>
-                            <div style={{border:'1px solid red',flex:'1'}}></div>
-                            <div style={{border:'1px solid red',flex:'3'}}></div>
-                            <div style={{border:'1px solid red',flex:'1'}}></div>
+                            <div style={{flex:'1'}}>
+                                <a style={{fontFamily:'arial,sans serrif',fontWeight:'bold',fontSize:'15px'}}>Available Shipping Method </a>
+                            </div>
+                            <div style={{border:'1px solid black',flex:'3',margin:'5px',borderRadius:'10px',display:'flex'}}>
+                                <div style={{flex:'1',textAlign:'center',fontFamily:'arial,sans serif',fontWeight:'bold',paddingTop:'20px'}}>FedEx</div>
+                                <div style={{flex:'2',marginTop:'15px'}}>
+                                    <a style={{fontFamily:'Arial , sans serif',fontWeight:'bold',fontSize:'15px'}}>Fedex Delivery</a><br/>
+                                    <a style={{fontFamily:'arial,sans sarif',fontSize:'15px',paddingBottom:'55px'}}>Delivery 2-3 days work</a>
+                                </div>
+                                <div style={{flex:'1'}}></div>
+                            </div>
+                            <div style={{flex:'1'}}>
+                                <a style={{fontFamily:'arial,sans serrif',fontWeight:'bold',fontSize:'15px'}}>Available International Shipping:</a>
+                            </div>
                             <div style={{border:'1px solid red',flex:'3'}}></div>
                         </div>
                     </div>
