@@ -89,7 +89,7 @@ export const Shoes=()=>{
                             <p style={{fontFamily:'Arial,sans serif',fontWeight:'bolder',fontSize:'18px'}}>Payment Details</p>
                             <a style={{fontFamily:'arial,sans serif',fontSize:'15px'}}>Complete your purchase item by providing your<br/>payment details order.</a>
                         </div>
-                        <div style={{flex:'3',display:'flex',flexDirection:'column'}}>
+                        <div style={{flex:'2.5',display:'flex',flexDirection:'column'}}>
                             <div style={{flex:'1',marginTop:'10px'}}>
                                 <a style={{fontFamily:'arial,sans serif',fontWeight:'bold',fontSize:'15px'}}>Email Address</a>
                             </div>
@@ -103,7 +103,16 @@ export const Shoes=()=>{
                             </div>
                             <div style={{border:'1px solid black',flex:'2',borderRadius:'10px'}}></div>
                         </div>
-                        <div style={{border:'1px solid black',flex:'3'}}></div>
+                        <div style={{flex:'3',display:'flex',flexDirection:'column'}}>
+                            <div style={{flex:'0.5',marginTop:'10px'}}>
+                                <a style={{fontFamily:'arial,sans serif',fontWeight:'bold',fontSize:'15px'}}>Billing Address</a>
+                            </div>
+                            <div style={{flex:'2',display:'flex',flexDirection:'column'}}>
+                                <div style={{border:'1px solid black',flex:'1',borderRadius:'10px 10px 0 0'}}></div>
+                                <div style={{border:'1px solid black',flex:'1',borderRadius:'0 0 10px 10px',borderTop:'white'}}></div>
+                            </div>
+                            <div style={{border:'1px solid black',flex:'3'}}></div>
+                        </div>
                     </div>
                     <div style={{flex:'1.5'}}></div>
                 </div>
