@@ -3,21 +3,27 @@ import React from "react";
 export const Shoes=()=>{
     return(
         <div style={{border:'1px solid black',width:'1200px',height:'660px',display:'flex',flexDirection:'column'}}>
-            <div style={{border:'1px solid red',flex:'1',display:'flex',flexDirection:'row'}}>
+            <div style={{border:'1px solid black',flex:'1',display:'flex',flexDirection:'row'}}>
                 <div style={{flex:'1',textAlign:'center',marginTop:'10px'}}>
                     <a style={{fontFamily:'Arial,sans serif',fontSize:'25px',fontWeight:'bolder'}}>Wearup. 
                         <a style={{fontFamily:'Arial,sans-serif',fontSize:'15px',fontWeight:'lighter',marginLeft:'20px'}}>|</a>
                         <a style={{fontFamily:'Arial,sans-serif',fontSize:'15px',fontWeight:'lighter',marginLeft:'20px'}}>Order Overview</a></a>
                 </div>
-                <div style={{border:'1px solid darkblue',flex:'2',display:'flex',flexDirection:'row'}}>
+                <div style={{flex:'2',display:'flex',flexDirection:'row'}}>
                     <div style={{flex:'0.7'}}></div>
-                    <div style={{border:'1px solid black',flex:'1'}}></div>
-                    <div style={{border:'1px solid black',flex:'1'}}></div>
-                    <div style={{border:'1px solid black',flex:'1'}}></div>
+                    <div style={{flex:'1',display:'flex'}}>
+                        <p style={{fontFamily:'arial,sans serif',fontWeight:'bold',fontSize:'15px'}}>Information</p>
+                    </div>
+                    <div style={{flex:'1'}}>
+                    <p style={{fontFamily:'arial,sans serif',fontWeight:'bold',fontSize:'15px'}}>2 Payment Details -----</p>
+                    </div>
+                    <div style={{flex:'1'}}>
+                    <p style={{fontFamily:'arial,sans serif',fontWeight:'bold',fontSize:'15px'}}>3. Completed Order</p>
+                    </div>
                 </div>
             </div>
-            <div style={{border:'1px solid red',flex:'12',display:'flex',flexDirection:'row'}}>
-                <div style={{border:'1px solid darkblue',flex:'1',display:'flex',flexDirection:'row'}}>
+            <div style={{flex:'12',display:'flex',flexDirection:'row'}}>
+                <div style={{flex:'1',display:'flex',flexDirection:'row'}}>
                     <div style={{flex:'1'}}></div>
                     <div style={{flex:'6',display:'flex',flexDirection:'column'}}>
                         <div style={{flex:'1'}}>
@@ -111,7 +117,25 @@ export const Shoes=()=>{
                                 <div style={{border:'1px solid black',flex:'1',borderRadius:'10px 10px 0 0'}}></div>
                                 <div style={{border:'1px solid black',flex:'1',borderRadius:'0 0 10px 10px',borderTop:'white'}}></div>
                             </div>
-                            <div style={{border:'1px solid black',flex:'3'}}></div>
+                            <div style={{flex:'3',display:'flex',flexDirection:'column'}}>
+                                <div style={{flex:'1.8'}}>
+                                    <div style={{paddingTop:'8px',display:'flex'}}>
+                                        <a style={{fontFamily:'arial,sans serif',fontSize:'13px',fontWeight:'bold'}}>Subtotal</a><br/>
+                                        <a style={{fontFamily:'arial,sans serif',fontSize:'13px',fontWeight:'bold',marginLeft:'305px'}}>$ 397.00</a>
+                                    </div>
+                                    <div style={{paddingTop:'8px',display:'flex'}}>
+                                        <a style={{fontFamily:'arial,sans serif',fontSize:'13px',fontWeight:'bold'}}>Vat (20%)</a><br/>
+                                        <a style={{fontFamily:'arial,sans serif',fontSize:'13px',fontWeight:'bold',marginLeft:'315px'}}>$ 2.89</a>
+                                    </div>
+                                    <div style={{paddingTop:'8px',display:'flex'}}>
+                                        <a style={{fontFamily:'arial,sans serif',fontSize:'13px',fontWeight:'bold'}}>Total</a><br/>
+                                        <a style={{fontFamily:'arial,sans serif',fontSize:'13px',fontWeight:'bold',marginLeft:'330px'}}>$ 399.89</a>
+                                    </div>
+                                </div>
+                                <div style={{backgroundColor:'black',flex:'1',borderRadius:'10px',textAlign:'center',marginBottom:'10px'}}>
+                                    <p style={{fontFamily:'arial ,sans serif',fontWeight:'bold',fontSize:'15px',color:'white'}}>Pay $ 399.89</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div style={{flex:'1.5'}}></div>
