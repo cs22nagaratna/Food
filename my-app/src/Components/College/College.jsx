@@ -116,7 +116,7 @@ export const College=()=>{
                 </div>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                    <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png"width={'60px'} height={'60px'}/>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTq64m-wHG61gqvDG8MoLkwhGO0G1DiduU_eIX-9GJ0gOj4mF1XXFy8FxGBegJ9JfuEWI&usqp=CAU"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Gym</a>
@@ -124,7 +124,7 @@ export const College=()=>{
                 </div>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                    <img src="https://cdn-icons-png.flaticon.com/512/1006/1006774.png"width={'60px'} height={'60px'}/>
+                    <img src="https://png.pngtree.com/png-clipart/20190614/original/pngtree-loan-icon-png-image_3700428.jpg"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Loans</a>
