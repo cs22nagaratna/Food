@@ -5,7 +5,16 @@ export const Payment=()=>{
         <div style={{border:'1px solid black',width:'1200px',height:'800px',display:'flex',flexDirection:'row'}}>
             <div style={{flex:'0.2'}}></div>
             <div style={{flex:'2',display:'flex',flexDirection:'column'}}>
-                <div style={{border:'1px solid red',flex:'1.5'}}></div>
+                <div style={{border:'1px solid red',flex:'1.5',display:'flex'}}>
+                    <p style={{fontFamily:'arial,sans sarif',fontWeight:'bold',fontSize:'30px',marginTop:'70px'}}>AceCoin<a style={{fontFamily:'arial',fontWeight:'lighter'}}>Pay</a></p>
+                    <div style={{flex:'1',display:'flex',marginLeft:'320px',marginTop:'70px',marginBottom:'60px'}}>
+                        <div style={{backgroundColor:'black',flex:'1',margin:'2px',color:'white',fontSize:'30px',textAlign:'center'}}>0</div>
+                        <div style={{backgroundColor:'black',flex:'1',margin:'2px',fontSize:'30px',textAlign:'center'}}></div>
+                        <div style={{flex:'0.1',margin:'2px',textAlign:'center',fontSize:'35px'}}>:</div>
+                        <div style={{backgroundColor:'black',flex:'1',margin:'2px',fontSize:'30px',textAlign:'center'}}></div>
+                        <div style={{backgroundColor:'black',flex:'1',margin:'2px',fontSize:'30px',textAlign:'center'}}></div>
+                    </div>
+                </div>
                 <div style={{flex:'1.5',display:'flex',flexDirection:'column'}}>
                     <div style={{flex:'1'}}>
                         <p style={{fontFamily:'arial,sans sarif',fontWeight:'bold',fontSize:'20px'}}>Card Number</p>
