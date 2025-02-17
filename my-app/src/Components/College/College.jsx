@@ -6,7 +6,7 @@ export const College=()=>{
             <div style={{flex:'1',display:'flex',flexDirection:'row'}}>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046753.png"width={'60px'} height={'60px'}/>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdkA-pOR1l5lRdCAtAAA2XSt2qg-WxQcg5A&s"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Restaurants</a>
