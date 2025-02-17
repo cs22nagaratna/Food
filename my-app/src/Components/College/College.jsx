@@ -65,7 +65,7 @@ export const College=()=>{
                 </div>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                    <img src="https://cdn-icons-png.flaticon.com/512/3011/3011270.png"width={'60px'} height={'60px'}/>
+                    <img src="https://cdn-icons-png.flaticon.com/256/13297/13297903.png"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Hospital</a>
@@ -73,7 +73,7 @@ export const College=()=>{
                 </div>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                    <img src="https://cdn-icons-png.flaticon.com/512/3060/3060175.png"width={'60px'} height={'60px'}/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/9242/9242076.png"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Contractors</a>
@@ -81,7 +81,7 @@ export const College=()=>{
                 </div>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                    <img src="https://cdn-icons-png.flaticon.com/512/616/616554.png"width={'60px'} height={'60px'}/>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXNfa6IQZyxB_Rr4nZkTTxuxzkghgeWOtSg&s"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Pet Shops</a>
@@ -91,7 +91,7 @@ export const College=()=>{
             <div style={{flex:'1',display:'flex',flexDirection:'row'}}>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                    <img src="https://cdn-icons-png.flaticon.com/512/2951/2951433.png"width={'60px'} height={'60px'}/>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIoCJ0iE4CsuQcRUiDosyjlTBECliP2e-mRw&s"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>PG/Hostels</a>
@@ -99,7 +99,7 @@ export const College=()=>{
                 </div>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                    <img src="https://cdn-icons-png.flaticon.com/512/2784/2784445.png"width={'60px'} height={'60px'}/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/10725/10725791.png"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Estate</a><br/>
@@ -108,7 +108,7 @@ export const College=()=>{
                 </div>
                 <div style={{flex:'1',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'2',margin:'10px',borderRadius:'15px',textAlign:'center',alignItems:'center',justifyContent:'center'}}>
-                    <img src="https://cdn-icons-png.flaticon.com/512/616/616490.png"width={'60px'} height={'60px'}/>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhXpis9S4r8Xriz_ER6SN0SBbDUaxOeyJDw&s"width={'60px'} height={'60px'}/>
                     </div>
                     <div style={{flex:'1.5',textAlign:'center'}}>
                         <a style={{fontFamily:'Arial,sans serif',fontSize:'15px'}}>Dentists</a>
